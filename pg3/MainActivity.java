@@ -28,8 +28,10 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
         add.setOnClickListener(this);
         sub.setOnClickListener(this);
         mul.setOnClickListener(this);
-        div.setOnClickListener(this);}
-        public void onClick(View v){
+        div.setOnClickListener(this);
+    }
+        public void onClick(View v)
+        {
         float num1=0;
         float num2=0;
         float result=0;
@@ -52,7 +54,8 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
                 case R.id.btn_div:
                     oper="/";
                     result=num1/num2;
-                    break;}
+                    break;
+            }
                     t1.setText(num1+""+oper+""+num2+"="+result);
             }
 
