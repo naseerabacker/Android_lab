@@ -52,7 +52,8 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
                 case R.id.btn_div:
                     oper="/";
                     result=num1/num2;
-                    break;}
+                    break;
+            }
                     t1.setText(num1+""+oper+""+num2+"="+result);
             }
 
